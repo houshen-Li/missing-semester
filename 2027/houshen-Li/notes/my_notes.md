@@ -82,3 +82,5 @@
 | `git push -u origin lesson1` | 推送分支并建立上游跟踪关系 |
 | `git switch main` | 切换到 main 分支 |
 | `git pull` | 获取并整合远程更新 |
+### 3.3 推送到github上的流程
+Fork 目标仓库 → 克隆到本地 → 创建开发分支 → 修改并保存文件 → 检查修改 → 暂存 → 提交到本地仓库 → 推送到 GitHub → 发起 PR → 根据评审修改并再次推送 → 等待合并。
